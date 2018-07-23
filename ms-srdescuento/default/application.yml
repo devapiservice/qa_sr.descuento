@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    platform: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://10.40.4.77:5432/srdescuento-db
+    username: srdescuento
+    password: Apimono123
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  instance:
+    metadata-map:
+      management:
+        port: 9090
