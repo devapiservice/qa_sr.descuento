@@ -4,7 +4,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://10.40.4.72:5432/srdescuento-db
     username: srdescuento
-    password: Apimono123
+    password: srdescuento
   jpa:
     database: POSTGRESQL
     show-sql: true
