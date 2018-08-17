@@ -2,7 +2,7 @@ spring:
   datasource:
     platform: postgres
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://10.40.4.72:5432/srdescuento-db
+    url: jdbc:postgresql://172.18.0.20:5432/srdescuento-db
     username: srdescuento
     password: srdescuento
   jpa:
