@@ -21,6 +21,10 @@ zuul:
       path: /srdescuentos/web/v1/**
       serviceId: MS-SRDESCUENTO-WEB
       stripPrefix: false
+    ms-hub:
+      path: /hub/v1/**
+      serviceId: MS-HUB
+      stripPrefix: false  
   ratelimit:
     enabled: false
     repository: IN_MEMORY
