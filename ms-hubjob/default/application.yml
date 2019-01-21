@@ -7,7 +7,7 @@ spring:
     password: Apimono123  
 
   rabbitmq:
-      host: localhost
+      host: 172.18.0.3
       port: 5672
       username: guest
       password: guest
