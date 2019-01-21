@@ -32,8 +32,9 @@ config:
   environment: qa
   # environment: produc
   queue:
-    exchange: exchange
-    queue: queue-planes-pago
+   exchange: exchange
+   queue: primary
+   queue-consulta-planespago-sifco-endpoint: queue.mapSifco-EndPoin
     routingkey: routingkey
     
     
