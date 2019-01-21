@@ -28,13 +28,14 @@ spring:
       password: guest
             
 config:
-  #environment: devel
-  environment: qa
-  # environment: produc
-  queue:
-    exchange: exchange
-    queue: queue-planes-pago
-    routingkey: routingkey
+ environment: devel
+ # environment: qa
+ # environment: produc
+ queue:
+   exchange: exchange
+   queue: primary
+   queue-consulta-planespago-sifco-endpoint: queue.mapSifco-EndPoint
+   routingkey: routingkey
     
     
 security:
