@@ -25,6 +25,10 @@ zuul:
       path: /hub/v1/**
       serviceId: MS-HUB
       stripPrefix: false  
+    ms-jobhub:
+      path: /planes-pago-endpoint/**
+      serviceId: MS-JOBHUB
+      stripPrefix: false  
   ratelimit:
     enabled: false
     repository: IN_MEMORY
