@@ -20,7 +20,12 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: hub      
+      database: hub    
+      
+config:
+  host: http://172.18.0.4/api/
+  uri_token_hub: http://172.18.0.4/api/oauth/token
+  host_sifco: http://172.18.0.56:80/
 
 security:
   sessions: stateless
