@@ -18,7 +18,7 @@ spring:
 #          use_jdbc_metadata_defaults: false      
   data:
     mongodb:
-      host: localhost
+      host: 10.40.4.98
       port: 27017
       database: hub    
       
