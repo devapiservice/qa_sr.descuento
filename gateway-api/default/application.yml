@@ -22,9 +22,13 @@ zuul:
       serviceId: MS-SRDESCUENTO-WEB
       stripPrefix: false
     ms-hub:
-      path: /hub/v1/**
+      path: /ms-hub_backoffice/v1/**
       serviceId: MS-HUB
       stripPrefix: false  
+    ms-hub_backoffice:
+      path: /hub/v1/**
+      serviceId: MS-HUB_BACKOFFICE
+      stripPrefix: false 
   ratelimit:
     enabled: false
     repository: IN_MEMORY
