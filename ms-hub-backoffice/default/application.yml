@@ -12,6 +12,9 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     open-in-view: false
     generate-ddl: false
+    properties:
+      hibernate:
+        default_schema: hub
   data:
     mongodb:
       host: localhost
