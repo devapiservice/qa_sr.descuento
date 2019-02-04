@@ -3,8 +3,8 @@ spring:
     platform: postgresql
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://10.40.4.79:5432/hub-QA
-    username: hub-desa
-    password: Apimono123
+    username: hub
+    password: YUHeHMHdcj
   jpa:
     database: POSTGRESQL
     show-sql: true
