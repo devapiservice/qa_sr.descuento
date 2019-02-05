@@ -25,7 +25,7 @@ zuul:
       path: /hub/v1/**
       serviceId: MS-HUB
       stripPrefix: false
-    ms-hub-backoffice:
+    ms-backoffice:
       path: /hub-backoffice/v1/**
       serviceId: MS-HUB-BACKOFFICE
       stripPrefix: false
