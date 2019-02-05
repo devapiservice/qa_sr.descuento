@@ -25,6 +25,10 @@ zuul:
       path: /hub/v1/**
       serviceId: MS-HUB
       stripPrefix: false  
+    ms-hub-backoffice:
+      path: /ms-hub-backoffice/v1/**
+      serviceId: MS-HUB-BACKOFFICE
+      stripPrefix: false  
   ratelimit:
     enabled: false
     repository: IN_MEMORY
