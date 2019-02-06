@@ -27,16 +27,15 @@ spring:
       username: guest
       password: guest
             
-  config:
-    #environment: devel
-    environment: qa
-    # environment: produc
-    queue:
-      exchange: exchange
-      queue: queue-planes-pago
-      routingkey: routingkey
-    
-    
+config:
+  #environment: devel
+  environment: qa
+  # environment: produc
+  queue:
+    exchange: exchange
+    queue: queue-planes-pago
+    routingkey: routingkey
+      
 security:
   sessions: stateless
   basic:
