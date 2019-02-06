@@ -14,8 +14,6 @@ spring:
     properties:
       hibernate:
         default_schema: hub
-#        temp:
-#          use_jdbc_metadata_defaults: false 
   data:
     mongodb:
       host: 10.40.4.98
@@ -28,9 +26,7 @@ spring:
       password: guest
             
 config:
-  #environment: devel
   environment: qa
-  # environment: produc
   queue:
     exchange: exchange
     queue: queue-planes-pago
