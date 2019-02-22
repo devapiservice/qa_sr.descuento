@@ -26,11 +26,14 @@ spring:
       password: guest
             
 config:
-  environment: qa
-  queue:
-    exchange: exchange
-    queue: queue-planes-pago
-    routingkey: routingkey
+  host: http://172.18.0.4/api/
+  uri_token_hub: http://172.18.0.4/api/oauth/token
+  host_sifco: http://172.18.0.56:80/
+ queue:
+   exchange: exchange
+   queue: primary
+   queue-consulta-planespago-sifco-endpoint: queue.mapSifco-EndPoint
+   routingkey: routingkey
       
 security:
   sessions: stateless
