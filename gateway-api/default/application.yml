@@ -13,8 +13,26 @@ zuul:
       path: /oauth/**
       serviceId: OAUTH-SERVER
       stripPrefix: false
-    
-      
+    ms-srdescuento:
+      path: /srdescuentos/v1/**
+      serviceId: MS-SRDESCUENTO
+      stripPrefix: false
+    ms-srdescuento-web:
+      path: /srdescuentos/web/v1/**
+      serviceId: MS-SRDESCUENTO-WEB
+      stripPrefix: false
+    ms-hub:
+      path: /hub/v1/**
+      serviceId: MS-HUB
+      stripPrefix: false  
+    backoffice-web:
+      path: /backoffice-web/v1/**
+      serviceId: BACKOFFICE-WEB
+      stripPrefix: false
+    ms-hub-backoffice:
+      path: /hub-backoffice/v1/**
+      serviceId: MS-HUB-BACKOFFICE
+      stripPrefix: false
   ratelimit:
     enabled: false
     repository: IN_MEMORY
